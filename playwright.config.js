@@ -30,7 +30,7 @@ export default defineConfig({
   },
   projects: [
     {
-      name: 'Sistran',
+      name: 'chromium',
       use: {
         browserName: 'chromium',
         launchOptions: {
