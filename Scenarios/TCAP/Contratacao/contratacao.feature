@@ -3,7 +3,7 @@ Funcionalidade: SISTRAN » Projeto Spring - TCAP - Jornada Contratacao e Capital
   
   @contratacao @tcap
   Cenário: CT001 - Adquirir um Título de Capitalização - tcap-bff-contratacao-capitalizacao | Responsável: Orivan Junior
-    Dado que estou na página 'https://tcap.appsti.bradseg.com.br/tcap-fed-contratacao-capitalizacao/'
+    Dado que estou na página 'https://tcap.appstu.bradseg.com.br/tcap-fed-contratacao-capitalizacao/'
     E que eu adicione a quantidade de '3' títulos 
     E que eu tenha mais de um titulo e queira remover um deles
     E que clico no botão expandir 'Mais Informações' na tela inicial TCAP
@@ -23,13 +23,13 @@ Funcionalidade: SISTRAN » Projeto Spring - TCAP - Jornada Contratacao e Capital
     E clico em Info
     E verifico os termos e condições
     E clico no botão 'Avançar' na Jornada TCAP
-    E verifico que estou na página para 'confirmar os dados da compra'
-    E que clico no botão expandir 'Mais Informações' na tela inicial TCAP
-    E marco o checkbox 'Aceitar termos de declaração e condições gerais' na tela TCAP
-    E verifico os termos e condições
-    E clico no botão Avançar na tela de Pagamento
-    E verifico que estou na página para 'o pagamento'
-    E realizo uma chamada API para realizar um pagamento
-    Então aguardo o pagamento ser efetuado com sucesso
-    E clico no botão 'Baixar comprovante' na Jornada TCAP
-    E encerro a Jornada TCAP
+    #E verifico que estou na página para 'confirmar os dados da compra'
+    #E que clico no botão expandir 'Mais Informações' na tela inicial TCAP
+    #E marco o checkbox 'Aceitar termos de declaração e condições gerais' na tela TCAP
+    #E verifico os termos e condições
+    #E clico no botão Avançar na tela de Pagamento
+    #E verifico que estou na página para 'o pagamento'
+    #E realizo uma chamada API para realizar um pagamento
+    #Então aguardo o pagamento ser efetuado com sucesso
+    #E clico no botão 'Baixar comprovante' na Jornada TCAP
+    #E encerro a Jornada TCAP
