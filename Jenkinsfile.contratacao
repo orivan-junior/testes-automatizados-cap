@@ -65,7 +65,7 @@ pipeline {
             steps {
                 sh '''
                     echo "🧪 Executando testes de contratação..."
-                    npx playwright test --grep @contratacao --reporter=allure
+                    npx playwright test --grep @contratacao --reporter=allure-playwright
                     echo "✅ Testes de contratação concluídos!"
                 '''
             }
